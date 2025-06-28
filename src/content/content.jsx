@@ -185,21 +185,63 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especializações que refletem compromisso com a justiça",
+      subtitle:
+        "Atuação focada no Direito Penal, com suporte nas áreas Cível, do Consumidor e Previdenciária.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Penal Comum",
+        subtitle: "Com foco especial na Lei de Drogas.",
         description: (
           <div>
-            A_Definir
+            <strong>Atuação:</strong>
+            <br />
+            Atuando de forma especializada em casos envolvendo a Lei nº
+            11.343/2006, que trata dos crimes relacionados ao tráfico e uso de
+            entorpecentes. Meu trabalho consiste em garantir que os direitos do
+            cliente sejam respeitados em todas as fases do processo, desde a
+            investigação até o julgamento, analisando a legalidade das prisões,
+            a validade das provas e buscando sempre a aplicação justa da lei.
             <br />
             <br />
-            A_Definir
+            <strong>Portfólio:</strong>
+            <br />
+            - Defesa técnica em processos de tráfico, associação e porte de
+            entorpecentes.
+            <br />
+            - Atuação em todas as fases do processo: investigação, audiência de
+            custódia, instrução e julgamento.
+            <br />
+            - Análise minuciosa de provas, legalidade de abordagens, buscas e
+            apreensões.
+            <br />
+            - Estratégias para desclassificação de crimes e busca de medidas
+            alternativas à prisão.
+            <br />- Atuação em recursos e sustentação oral nos tribunais.
+            <br />
+            <br />
+            <strong>Exemplo prático relevante na mídia:</strong>
+            <br />
+            Pesquisa nacional do Ministério da Justiça e Ipea mostra graves
+            problemas na aplicação da Lei de Drogas, incluindo racismo
+            institucional, abordagens ilegais e falta de investigação adequada,
+            com impacto direto no perfil dos processados por tráfico no Brasil.
+            <br />
+            <i>
+              “Racismo institucional, falta de informações em processos, pouca
+              investigação e ilegalidade em abordagens policiais foram alguns
+              dos problemas apontados em relação à aplicação da Lei de Drogas
+              (Lei 11.343/2006), por uma pesquisa realizada pela Secretaria
+              Nacional de Políticas sobre Drogas e Gestão de Ativos (Senad) do
+              Ministério da Justiça e Segurança Pública (MJSP) e o Instituto de
+              Pesquisa Econômica Aplicada (Ipea).”
+              <br />— <a>Agência Brasil, 2023</a>
+              <br />
+              Leia também: <a>Relatório completo MJSP/Ipea</a>
+            </i>
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -208,11 +250,19 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -220,14 +270,46 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Penal Eleitoral",
+        subtitle: "Atuação em crimes eleitorais e infrações relacionadas.",
         description: (
           <div>
-            A_Definir
+            <strong>Atuação:</strong> <br />
+            Defesa de clientes acusados de crimes eleitorais, como corrupção
+            eleitoral, boca de urna e outras condutas vedadas durante o período
+            eleitoral. Acompanhamento de campanhas, orientação sobre legalidade
+            das ações e defesa judicial em todas as instâncias da Justiça
+            Eleitoral.
             <br />
             <br />
-            A_Definir
+            <strong>Portfólio:</strong> <br />
+            - Defesa de candidatos, partidos e eleitores acusados de crimes
+            eleitorais (compra de votos, corrupção eleitoral, boca de urna, uso
+            indevido de meios de comunicação, entre outros).
+            <br />
+            - Acompanhamento de investigações e processos perante a Justiça
+            Eleitoral.
+            <br />
+            - Consultoria preventiva para campanhas e partidos, orientando sobre
+            condutas permitidas e vedadas.
+            <br />- Elaboração de defesas técnicas, recursos e atuação em
+            audiências e julgamentos.
+            <br />
+            <br />
+            <strong>Exemplo prático relevante na mídia:</strong>
+            <br />A Operação Eleições 2024 registrou mais de 3 mil crimes
+            eleitorais no dia da votação, incluindo boca de urna, compra de
+            votos e transporte irregular de eleitores, com centenas de prisões
+            em todo o país.
+            <br />
+            <i>
+              “As ocorrências mais comuns foram boca de urna, compra de votos e
+              propaganda irregular. Ministério da Justiça e Segurança Pública
+              monitorou o pleito e registrou 536 prisões, sendo 23 de
+              candidatos, além de apreensões de veículos e valores em dinheiro.”
+              <br />
+              <a>— Ministério da Justiça, 2024</a>
+            </i>
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -236,11 +318,15 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-icon lucide-check"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M20 6 9 17l-5-5" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -248,13 +334,49 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Penal Econômico",
+        subtitle: "Defesa em crimes empresariais, tributários e financeiros.",
         description: (
           <div>
-            A_Definir <br />
+            <strong>Atuação:</strong>
             <br />
-            A_Definir
+            Defesa de pessoas e empresas em casos de crimes financeiros, como
+            lavagem de dinheiro, corrupção, fraudes e delitos contra o sistema
+            financeiro. Elaboração de estratégias jurídicas robustas para
+            proteger os interesses do cliente e consultoria em compliance.
+            <br />
+            <br />
+            <strong>Portfólio:</strong>
+            <br />
+            - Defesa em crimes financeiros: lavagem de dinheiro, corrupção,
+            evasão de divisas, fraudes bancárias e delitos contra o sistema
+            financeiro nacional.
+            <br />
+            - Atuação em investigações complexas, análise de documentos e
+            operações financeiras.
+            <br />
+            - Consultoria preventiva para empresas: implementação de programas
+            de compliance, análise de riscos e treinamento de equipes.
+            <br />- Representação em processos administrativos e judiciais,
+            inclusive em ações de colaboração premiada e acordos de leniência.
+            <br />
+            <br />
+            <strong>Exemplo prático relevante na mídia:</strong>
+            <br />
+            O caso Americanas, um dos maiores escândalos corporativos do Brasil,
+            resultou em denúncias por fraude, manipulação de mercado e
+            organização criminosa, com 13 pessoas indiciadas pela Polícia
+            Federal e Ministério Público Federal.
+            <br />
+            <br />
+            <i>
+              “A Polícia Federal indiciou e o MPF denunciou, nesta segunda-feira
+              (31), 13 pessoas por fraudes na Americanas, estimadas em R$ 25
+              bilhões. Os crimes de falsidade ideológica e manipulação de
+              mercado também foram imputados a todos.”
+              <br />
+              <a>— G1, 2025</a>
+            </i>
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -263,11 +385,19 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -275,8 +405,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Cível",
+        subtitle:
+          "Assessoria em questões patrimoniais, contratuais e indenizatórias.",
         description: (
           <div>
             A_Definir
@@ -291,11 +422,19 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -303,8 +442,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Consumidor",
+        subtitle: "Proteção aos direitos do consumidor em relações de consumo.",
         description: (
           <div>
             A_Definir
@@ -325,11 +464,45 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Direito Previdenciário",
+        subtitle: "Atuação em benefícios do INSS, aposentadorias e revisões.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user-check-icon lucide-user-check"
+          >
+            <path d="m16 11 2 2 4-4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
