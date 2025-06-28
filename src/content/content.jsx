@@ -125,20 +125,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          A defesa começa com a
+          <span className="text-primary"> escolha certa</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Nem todo advogado vai entender o peso que você carrega. A gente construiu um escritório pra isso.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Conheça nossa forma de atuar",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Sede na cidade de Salvador - BA, mas com rede de apoio para atendimento em todo o Brasil.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
