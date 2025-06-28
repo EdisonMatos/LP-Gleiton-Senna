@@ -527,11 +527,12 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Salvador - BA",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9861.36277041279!2d-38.4611483!3d-12.9816146!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b002a606a03%3A0xe0a641a9ebe3506c!2sEdf%20empresarial%20omega!5e1!3m2!1spt-BR!2sbr!4v1751118531179!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
