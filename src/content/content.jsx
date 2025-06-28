@@ -538,33 +538,50 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. GLEITON SENNA",
+      title: "Minha trajetória",
+      subtitle:
+        "Especialização penal, visão humana e foco em soluções jurídicas completas.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          A história do escritório Gleiton Senna Advogados nasce da vocação pela
+          justiça e da dedicação à defesa dos direitos fundamentais.
           <br />
-          A_Definir
+          Com atuação focada em Direito Penal, Penal Eleitoral e Penal
+          Econômico, o Dr. Gleiton construiu uma carreira marcada pela
+          excelência técnica, ética e atendimento humanizado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A história do escritório Gleiton Senna Advogados nasce da vocação pela
+          justiça e da dedicação à defesa dos direitos fundamentais.
           <br />
           <br />
-          A_Definir
+          Com atuação focada em Direito Penal, Penal Eleitoral e Penal
+          Econômico, o Dr. Gleiton construiu uma carreira marcada pela
+          excelência técnica, ética e atendimento humanizado.
           <br />
           <br />
-          A_Definir
+          Movido por valores como responsabilidade, empatia e inovação, alia
+          conhecimento jurídico a uma escuta ativa e estratégica.
           <br />
           <br />
-          A_Definir
+          Além da especialização penal, conta com equipe multidisciplinar para
+          demandas em Direito Cível, do Consumidor e Previdenciário, oferecendo
+          soluções integradas e personalizadas.
+          <br />
+          <br />
+          A tecnologia é aliada na agilidade e no acompanhamento processual, sem
+          abrir mão da proximidade com o cliente.
+          <br />
+          <br />O resultado é um serviço moderno, acessível e comprometido com o
+          bem-estar e a segurança jurídica de quem confia no escritório.
           <br />
           <br />
         </p>
