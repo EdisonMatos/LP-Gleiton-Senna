@@ -167,27 +167,6 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     />
                   )}
                 </MotionDivDownToUp>{" "}
-                <MotionDivDownToUp>
-                  <IconFeatureCard
-                    icon={content.texts.features.card4.icon}
-                    title={content.texts.features.card4.title}
-                    paragraph={content.texts.features.card4.subtitle}
-                    colorMode={colorMode}
-                  />
-                </MotionDivDownToUp>
-              </div>
-
-              <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
-                <div
-                  className="hidden desktop1:h-[676px] desktop2:h-[710px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
-                  style={{
-                    backgroundImage: `url(${content.texts.features.imgFeatures})`,
-                  }}
-                ></div>
-              </MotionDivDownToUp>
-
-              <div className="col3 desktop1:w-[28%] gap-4 flex flex-col justify-center items-center">
-                {" "}
                 <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
                     icon={content.texts.features.card2.icon}
@@ -245,6 +224,27 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     />
                   )}
                 </MotionDivDownToUp>{" "}
+              </div>
+
+              <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
+                <div
+                  className="hidden desktop1:h-[676px] desktop2:h-[710px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
+                  style={{
+                    backgroundImage: `url(${content.texts.features.imgFeatures})`,
+                  }}
+                ></div>
+              </MotionDivDownToUp>
+
+              <div className="col3 desktop1:w-[28%] gap-4 flex flex-col justify-center items-center">
+                {" "}
+                <MotionDivDownToUp>
+                  <IconFeatureCard
+                    icon={content.texts.features.card4.icon}
+                    title={content.texts.features.card4.title}
+                    paragraph={content.texts.features.card4.subtitle}
+                    colorMode={colorMode}
+                  />
+                </MotionDivDownToUp>
                 <MotionDivDownToUp>
                   <IconFeatureCard
                     icon={content.texts.features.card5.icon}

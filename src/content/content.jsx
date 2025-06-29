@@ -194,7 +194,7 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Direito Penal Comum",
-        subtitle: "Com foco especial na Lei de Drogas.",
+        subtitle: "",
         description: (
           <div>
             <strong>Atuação:</strong>
@@ -271,7 +271,7 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Direito Penal Eleitoral",
-        subtitle: "Atuação em crimes eleitorais e infrações relacionadas.",
+        subtitle: "",
         description: (
           <div>
             <strong>Atuação:</strong> <br />
