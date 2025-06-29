@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -238,9 +238,25 @@ const content = {
               Nacional de Políticas sobre Drogas e Gestão de Ativos (Senad) do
               Ministério da Justiça e Segurança Pública (MJSP) e o Instituto de
               Pesquisa Econômica Aplicada (Ipea).”
-              <br />— <a>Agência Brasil, 2023</a>
+              <br />—{" "}
+              <a
+                href="https://agenciabrasil.ebc.com.br/justica/noticia/2023-09/pesquisa-revela-graves-problemas-na-aplicacao-da-lei-de-drogas"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-links"
+              >
+                Agência Brasil, 2023
+              </a>
               <br />
-              Leia também: <a>Relatório completo MJSP/Ipea</a>
+              Leia também:{" "}
+              <a
+                href="https://www.gov.br/mj/pt-br/assuntos/noticias/senad-entrega-balanco-de-trabalho-ao-ministro-flavio-dino/Principais%20resultados%20Secretaria%20Nacional%20de%20Pol%20Sobre%20Drogas%20.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-links"
+              >
+                Relatório completo MJSP/Ipea
+              </a>
             </i>
           </div>
         ),
@@ -308,7 +324,14 @@ const content = {
               monitorou o pleito e registrou 536 prisões, sendo 23 de
               candidatos, além de apreensões de veículos e valores em dinheiro.”
               <br />
-              <a>— Ministério da Justiça, 2024</a>
+              <a
+                href="https://www.gov.br/mj/pt-br/assuntos/noticias/operacao-eleicoes-2024-registra-crimes-eleitorais-e-prisoes-acesse-o-boletim-completo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-links"
+              >
+                — Ministério da Justiça, 2024
+              </a>
             </i>
           </div>
         ),
@@ -375,7 +398,14 @@ const content = {
               bilhões. Os crimes de falsidade ideológica e manipulação de
               mercado também foram imputados a todos.”
               <br />
-              <a>— G1, 2025</a>
+              <a
+                href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/04/01/denunciados-por-fraude-na-americanas.ghtml"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-links"
+              >
+                — G1, 2025
+              </a>
             </i>
           </div>
         ),

@@ -112,9 +112,9 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 </MotionDivDownToUp>
                 <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
-                    icon={content.texts.features.card3.icon}
-                    title={content.texts.features.card3.title}
-                    paragraph={content.texts.features.card3.subtitle}
+                    icon={content.texts.features.card2.icon}
+                    title={content.texts.features.card2.title}
+                    paragraph={content.texts.features.card2.subtitle}
                     className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                     colorMode={colorMode}
                   />
@@ -122,11 +122,11 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     <Button
                       colorMode={colorMode}
                       size="small"
-                      label={content.texts.features.card3.buttonLabel}
+                      label={content.texts.features.card2.buttonLabel}
                       onClick={() =>
                         onClick(
-                          content.texts.features.card3.title,
-                          content.texts.features.card3.description,
+                          content.texts.features.card2.title,
+                          content.texts.features.card2.description,
                           <>
                             <p className="my-[20px]">
                               Quer saber mais? Clique abaixo 👇
@@ -169,9 +169,9 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 </MotionDivDownToUp>{" "}
                 <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
-                    icon={content.texts.features.card2.icon}
-                    title={content.texts.features.card2.title}
-                    paragraph={content.texts.features.card2.subtitle}
+                    icon={content.texts.features.card3.icon}
+                    title={content.texts.features.card3.title}
+                    paragraph={content.texts.features.card3.subtitle}
                     className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                     colorMode={colorMode}
                   />
@@ -179,11 +179,11 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     <Button
                       colorMode={colorMode}
                       size="small"
-                      label={content.texts.features.card2.buttonLabel}
+                      label={content.texts.features.card3.buttonLabel}
                       onClick={() =>
                         onClick(
-                          content.texts.features.card2.title,
-                          content.texts.features.card2.description,
+                          content.texts.features.card3.title,
+                          content.texts.features.card3.description,
                           <>
                             <p className="my-[20px]">
                               Quer saber mais? Clique abaixo 👇
