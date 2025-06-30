@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Henrique Jeremias",
+  name: "Dr. Gleiton Senna",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "drhenriquejeremias.com.br", // Sem "www"
+  domain: "gleitonsenna.adv.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "96576", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2551", // Apenas os 4 últimos números
+    ddd: "71",
+    firstPart: "99656", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7441", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,11 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Av. Tancredo Neves,</p>
+      <p>nº 1283, Ed. Ômega,</p>
+      <p>Sala 902, Caminho das Árvores,</p>
+      <p>Salvador - BA,</p>
+      <p>CEP: 41820-021</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,12 +94,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>Atendimento 24h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "henriquejeremias.adv", // Sem o @
-  facebookProfile: "henrique.jeremias.adv",
+  instagramProfile: "gleitonsenna.adv", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -123,21 +125,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM SÃO PAULO - SP",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          Seu problema merece
-          <span className="text-primary"> atenção real</span>
+          A defesa começa com a
+          <span className="text-primary"> escolha certa</span>
         </h1>
       ),
       subtitle:
-        "Esqueça os velhos modelos. Aqui, o foco é você e a busca pela melhor solução possível.",
+        "Nem todo advogado vai entender o peso que você carrega. A gente construiu um escritório pra isso.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Conheça uma nova advocacia",
+      ctaButtonText: "Conheça nossa forma de atuar",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento exclusivamente online",
+        text: "Sede na cidade de Salvador - BA, mas com rede de apoio para atendimento em todo o Brasil.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,21 +186,78 @@ const content = {
     },
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades jurídicas",
+      title: "Especializações que refletem compromisso com a justiça",
       subtitle:
-        "Atendimento completo e estratégico nas principais áreas do Direito.",
+        "Atuação focada no Direito Penal, com suporte nas áreas Cível, do Consumidor e Previdenciária.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Penal",
-        subtitle: "Defesa em acusações criminais e processos penais.",
+        title: "Direito Penal Comum",
+        subtitle: "",
         description: (
           <div>
-            A_Definir
+            <strong>Atuação:</strong>
+            <br />
+            Atuando de forma especializada em casos envolvendo a Lei nº
+            11.343/2006, que trata dos crimes relacionados ao tráfico e uso de
+            entorpecentes. Meu trabalho consiste em garantir que os direitos do
+            cliente sejam respeitados em todas as fases do processo, desde a
+            investigação até o julgamento, analisando a legalidade das prisões,
+            a validade das provas e buscando sempre a aplicação justa da lei.
             <br />
             <br />
-            A_Definir
+            <strong>Portfólio:</strong>
+            <br />
+            - Defesa técnica em processos de tráfico, associação e porte de
+            entorpecentes.
+            <br />
+            - Atuação em todas as fases do processo: investigação, audiência de
+            custódia, instrução e julgamento.
+            <br />
+            - Análise minuciosa de provas, legalidade de abordagens, buscas e
+            apreensões.
+            <br />
+            - Estratégias para desclassificação de crimes e busca de medidas
+            alternativas à prisão.
+            <br />- Atuação em recursos e sustentação oral nos tribunais.
+            <br />
+            <br />
+            <strong>Exemplo prático relevante na mídia:</strong>
+            <br />
+            Pesquisa nacional do Ministério da Justiça e Ipea mostra graves
+            problemas na aplicação da Lei de Drogas, incluindo racismo
+            institucional, abordagens ilegais e falta de investigação adequada,
+            com impacto direto no perfil dos processados por tráfico no Brasil.
+            <br />
+            <i>
+              “Racismo institucional, falta de informações em processos, pouca
+              investigação e ilegalidade em abordagens policiais foram alguns
+              dos problemas apontados em relação à aplicação da Lei de Drogas
+              (Lei 11.343/2006), por uma pesquisa realizada pela Secretaria
+              Nacional de Políticas sobre Drogas e Gestão de Ativos (Senad) do
+              Ministério da Justiça e Segurança Pública (MJSP) e o Instituto de
+              Pesquisa Econômica Aplicada (Ipea).”
+              <br />—{" "}
+              <a
+                href="https://agenciabrasil.ebc.com.br/justica/noticia/2023-09/pesquisa-revela-graves-problemas-na-aplicacao-da-lei-de-drogas"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-links"
+              >
+                Agência Brasil, 2023
+              </a>
+              <br />
+              Leia também:{" "}
+              <a
+                href="https://www.gov.br/mj/pt-br/assuntos/noticias/senad-entrega-balanco-de-trabalho-ao-ministro-flavio-dino/Principais%20resultados%20Secretaria%20Nacional%20de%20Pol%20Sobre%20Drogas%20.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-links"
+              >
+                Relatório completo MJSP/Ipea
+              </a>
+            </i>
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -227,17 +286,167 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Cível e Consumidor",
-        subtitle: "Soluções em conflitos civis e defesa do consumidor.",
+        title: "Direito Penal Eleitoral",
+        subtitle: "",
+        description: (
+          <div>
+            <strong>Atuação:</strong> <br />
+            Defesa de clientes acusados de crimes eleitorais, como corrupção
+            eleitoral, boca de urna e outras condutas vedadas durante o período
+            eleitoral. Acompanhamento de campanhas, orientação sobre legalidade
+            das ações e defesa judicial em todas as instâncias da Justiça
+            Eleitoral.
+            <br />
+            <br />
+            <strong>Portfólio:</strong> <br />
+            - Defesa de candidatos, partidos e eleitores acusados de crimes
+            eleitorais (compra de votos, corrupção eleitoral, boca de urna, uso
+            indevido de meios de comunicação, entre outros).
+            <br />
+            - Acompanhamento de investigações e processos perante a Justiça
+            Eleitoral.
+            <br />
+            - Consultoria preventiva para campanhas e partidos, orientando sobre
+            condutas permitidas e vedadas.
+            <br />- Elaboração de defesas técnicas, recursos e atuação em
+            audiências e julgamentos.
+            <br />
+            <br />
+            <strong>Exemplo prático relevante na mídia:</strong>
+            <br />A Operação Eleições 2024 registrou mais de 3 mil crimes
+            eleitorais no dia da votação, incluindo boca de urna, compra de
+            votos e transporte irregular de eleitores, com centenas de prisões
+            em todo o país.
+            <br />
+            <i>
+              “As ocorrências mais comuns foram boca de urna, compra de votos e
+              propaganda irregular. Ministério da Justiça e Segurança Pública
+              monitorou o pleito e registrou 536 prisões, sendo 23 de
+              candidatos, além de apreensões de veículos e valores em dinheiro.”
+              <br />
+              <a
+                href="https://www.gov.br/mj/pt-br/assuntos/noticias/operacao-eleicoes-2024-registra-crimes-eleitorais-e-prisoes-acesse-o-boletim-completo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-links"
+              >
+                — Ministério da Justiça, 2024
+              </a>
+            </i>
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-icon lucide-check"
+          >
+            <path d="M20 6 9 17l-5-5" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Direito Penal Econômico",
+        subtitle: "Defesa em crimes empresariais, tributários e financeiros.",
+        description: (
+          <div>
+            <strong>Atuação:</strong>
+            <br />
+            Defesa de pessoas e empresas em casos de crimes financeiros, como
+            lavagem de dinheiro, corrupção, fraudes e delitos contra o sistema
+            financeiro. Elaboração de estratégias jurídicas robustas para
+            proteger os interesses do cliente e consultoria em compliance.
+            <br />
+            <br />
+            <strong>Portfólio:</strong>
+            <br />
+            - Defesa em crimes financeiros: lavagem de dinheiro, corrupção,
+            evasão de divisas, fraudes bancárias e delitos contra o sistema
+            financeiro nacional.
+            <br />
+            - Atuação em investigações complexas, análise de documentos e
+            operações financeiras.
+            <br />
+            - Consultoria preventiva para empresas: implementação de programas
+            de compliance, análise de riscos e treinamento de equipes.
+            <br />- Representação em processos administrativos e judiciais,
+            inclusive em ações de colaboração premiada e acordos de leniência.
+            <br />
+            <br />
+            <strong>Exemplo prático relevante na mídia:</strong>
+            <br />
+            O caso Americanas, um dos maiores escândalos corporativos do Brasil,
+            resultou em denúncias por fraude, manipulação de mercado e
+            organização criminosa, com 13 pessoas indiciadas pela Polícia
+            Federal e Ministério Público Federal.
+            <br />
+            <br />
+            <i>
+              “A Polícia Federal indiciou e o MPF denunciou, nesta segunda-feira
+              (31), 13 pessoas por fraudes na Americanas, estimadas em R$ 25
+              bilhões. Os crimes de falsidade ideológica e manipulação de
+              mercado também foram imputados a todos.”
+              <br />
+              <a
+                href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/04/01/denunciados-por-fraude-na-americanas.ghtml"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-links"
+              >
+                — G1, 2025
+              </a>
+            </i>
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card4: {
+        img: featuresImg4,
+        title: "Direito Cível",
+        subtitle:
+          "Assessoria em questões patrimoniais, contratuais e indenizatórias.",
         description: (
           <div>
             A_Definir
             <br />
-            <br />
             A_Definir
+            <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal2,
+        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -261,79 +470,10 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card3: {
-        img: featuresImg3,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Acordos, divórcios, pensões e inventários legais.",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
-          >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card4: {
-        img: featuresImg4,
-        title: "Direito Empresarial e Trabalhista",
-        subtitle: "Suporte jurídico para empresas e relações de trabalho.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
-          >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Consumidor",
+        subtitle: "Proteção aos direitos do consumidor em relações de consumo.",
         description: (
           <div>
             A_Definir
@@ -354,11 +494,45 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Direito Previdenciário",
+        subtitle: "Atuação em benefícios do INSS, aposentadorias e revisões.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user-check-icon lucide-user-check"
+          >
+            <path d="m16 11 2 2 4-4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -383,50 +557,62 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Salvador - BA",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9861.36277041279!2d-38.4611483!3d-12.9816146!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b002a606a03%3A0xe0a641a9ebe3506c!2sEdf%20empresarial%20omega!5e1!3m2!1spt-BR!2sbr!4v1751118531179!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. HENRIQUE JEREMIAS",
+      miniTag: "QUEM É O DR. GLEITON SENNA",
       title: "Minha trajetória",
       subtitle:
-        "Uma advocacia humana, acessível e comprometida com o seu caso.",
+        "Especialização penal, visão humana e foco em soluções jurídicas completas.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Minha história na advocacia ainda está sendo escrita. Estou no início
-          da caminhada profissional, mas com uma visão muito clara: construir um
-          escritório acessível, sem formalidades excessivas, onde o cliente se
-          sinta à vontade para expor sua situação com confiança e clareza.
+          A história do escritório Gleiton Senna Advogados nasce da vocação pela
+          justiça e da dedicação à defesa dos direitos fundamentais.
+          <br />
+          Com atuação focada em Direito Penal, Penal Eleitoral e Penal
+          Econômico, o Dr. Gleiton construiu uma carreira marcada pela
+          excelência técnica, ética e atendimento humanizado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha história na advocacia ainda está sendo escrita. Estou no início
-          da caminhada profissional, mas com uma visão muito clara: construir um
-          escritório acessível, sem formalidades excessivas, onde o cliente se
-          sinta à vontade para expor sua situação com confiança e clareza.
+          A história do escritório Gleiton Senna Advogados nasce da vocação pela
+          justiça e da dedicação à defesa dos direitos fundamentais.
           <br />
           <br />
-          Acredito que, ao acolher verdadeiramente quem nos procura, conseguimos
-          compreender melhor o problema e buscar soluções mais eficazes. Tenho o
-          compromisso de atuar com empatia, transparência e total dedicação na
-          resolução dos conflitos que me são confiados.
+          Com atuação focada em Direito Penal, Penal Eleitoral e Penal
+          Econômico, o Dr. Gleiton construiu uma carreira marcada pela
+          excelência técnica, ética e atendimento humanizado.
           <br />
           <br />
-          Mais do que advogar, quero caminhar ao lado do cliente, mostrando que
-          ele não está sozinho.
+          Movido por valores como responsabilidade, empatia e inovação, alia
+          conhecimento jurídico a uma escuta ativa e estratégica.
+          <br />
+          <br />
+          Além da especialização penal, conta com equipe multidisciplinar para
+          demandas em Direito Cível, do Consumidor e Previdenciário, oferecendo
+          soluções integradas e personalizadas.
+          <br />
+          <br />
+          A tecnologia é aliada na agilidade e no acompanhamento processual, sem
+          abrir mão da proximidade com o cliente.
+          <br />
+          <br />O resultado é um serviço moderno, acessível e comprometido com o
+          bem-estar e a segurança jurídica de quem confia no escritório.
           <br />
           <br />
         </p>
