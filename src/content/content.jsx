@@ -195,7 +195,7 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Penal Comum",
+        title: "Direito Penal - Lei de Drogas",
         subtitle: "",
         description: (
           <div>
@@ -581,23 +581,23 @@ const content = {
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A história do escritório Gleiton Senna Advogados nasce da vocação pela
+          A história do escritório Gleiton Senna Advocacia nasce da vocação pela
           justiça e da dedicação à defesa dos direitos fundamentais.
           <br />
-          Com atuação focada em Direito Penal, Penal Eleitoral e Penal
-          Econômico, o Dr. Gleiton construiu uma carreira marcada pela
+          Com atuação focada em Direito Penal e Processo Penal, Lei de Drogas e
+          Direito Eleitoral, o Dr. Gleiton construiu uma carreira marcada pela
           excelência técnica, ética e atendimento humanizado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A história do escritório Gleiton Senna Advogados nasce da vocação pela
+          A história do escritório Gleiton Senna Advocacia nasce da vocação pela
           justiça e da dedicação à defesa dos direitos fundamentais.
           <br />
           <br />
-          Com atuação focada em Direito Penal, Penal Eleitoral e Penal
-          Econômico, o Dr. Gleiton construiu uma carreira marcada pela
+          Com atuação focada em Direito Penal e Processo Penal, Lei de Drogas e
+          Direito Eleitoral, o Dr. Gleiton construiu uma carreira marcada pela
           excelência técnica, ética e atendimento humanizado.
           <br />
           <br />
@@ -613,7 +613,8 @@ const content = {
           A tecnologia é aliada na agilidade e no acompanhamento processual, sem
           abrir mão da proximidade com o cliente.
           <br />
-          <br />O resultado é um serviço moderno, acessível e comprometido com o
+          <br />
+          O resultado é um serviço moderno, acessível e comprometido com o
           bem-estar e a segurança jurídica de quem confia no escritório.
           <br />
           <br />
