@@ -93,8 +93,10 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Atendimento 24h</p>
+      <p>
+        Advocacia Penal Especializada 24h – Atendimento imediato, todos os dias
+        da semana, para os momentos mais difíceis.
+      </p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
