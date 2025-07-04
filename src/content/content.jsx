@@ -190,7 +190,7 @@ const content = {
       miniTag: "ÁREAS DE ATUAÇÃO",
       title: "Especializações que refletem compromisso com a justiça",
       subtitle:
-        "Atuação focada no Direito Penal, com suporte nas áreas Cível, do Consumidor e Previdenciária.",
+        "Atuação focada no Direito Penal, com suporte nas áreas Cível, Consumidor e Previdenciária.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -584,9 +584,10 @@ const content = {
           A história do escritório Gleiton Senna Advocacia nasce da vocação pela
           justiça e da dedicação à defesa dos direitos fundamentais.
           <br />
-          Com atuação focada em Direito Penal e Processo Penal, Lei de Drogas e
-          Direito Eleitoral, o Dr. Gleiton construiu uma carreira marcada pela
-          excelência técnica, ética e atendimento humanizado.
+          Com atuação focada em Direito Penal e Processo Penal, Lei de Drogas,
+          Direito Penal Econômico e Direito Eleitoral, o Dr. Gleiton construiu
+          uma carreira marcada pela excelência técnica, ética e atendimento
+          humanizado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -596,9 +597,10 @@ const content = {
           justiça e da dedicação à defesa dos direitos fundamentais.
           <br />
           <br />
-          Com atuação focada em Direito Penal e Processo Penal, Lei de Drogas e
-          Direito Eleitoral, o Dr. Gleiton construiu uma carreira marcada pela
-          excelência técnica, ética e atendimento humanizado.
+          Com atuação focada em Direito Penal e Processo Penal, Lei de Drogas,
+          Direito Penal Econômico e Direito Eleitoral, o Dr. Gleiton construiu
+          uma carreira marcada pela excelência técnica, ética e atendimento
+          humanizado.
           <br />
           <br />
           Movido por valores como responsabilidade, empatia e inovação, alia
