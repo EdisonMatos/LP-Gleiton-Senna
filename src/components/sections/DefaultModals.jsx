@@ -237,7 +237,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
 
               <div className="col3 desktop1:w-[28%] gap-4 flex flex-col justify-center items-center">
                 {" "}
-                <MotionDivDownToUp>
+                <MotionDivDownToUp className="border-[2px] border-solid pt-[10px]">
                   <IconFeatureCard
                     icon={content.texts.features.card4.icon}
                     title={content.texts.features.card4.title}
@@ -245,7 +245,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     colorMode={colorMode}
                   />
                 </MotionDivDownToUp>
-                <MotionDivDownToUp>
+                <MotionDivDownToUp className="border-[2px] border-solid pt-[10px]">
                   <IconFeatureCard
                     icon={content.texts.features.card5.icon}
                     title={content.texts.features.card5.title}
@@ -253,7 +253,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     colorMode={colorMode}
                   />
                 </MotionDivDownToUp>
-                <MotionDivDownToUp>
+                <MotionDivDownToUp className="border-[2px] border-solid pt-[10px]">
                   <IconFeatureCard
                     icon={content.texts.features.card6.icon}
                     title={content.texts.features.card6.title}
