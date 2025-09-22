@@ -190,7 +190,7 @@ const content = {
       miniTag: "ÁREAS DE ATUAÇÃO",
       title: "Especializações que refletem compromisso com a justiça",
       subtitle:
-        "Atuação focada no Direito Penal, com suporte nas áreas Cível, Consumidor e Previdenciária.",
+        "Atuação focada no Direito Penal, com suporte nas áreas Cível, Consumidor, Previdenciário e Trabalhista.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -437,8 +437,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito do Consumidor",
-        subtitle: "Proteção aos direitos do consumidor em relações de consumo.",
+        title: "Direito Cível e do Consumidor",
+        subtitle:
+          "Atuação em questões contratuais, responsabilidade civil, indenizações e defesa do consumidor.",
         description: (
           <div>
             A_Definir
